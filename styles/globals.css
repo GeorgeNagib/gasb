@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;600&display=swap');
+
+:root {
+  --dark-blue: rgba(5, 9, 32, 1);
+  --linear-gradient: linear-gradient(
+    180deg,
+    #040920 12.85%,
+    rgba(5, 10, 34, 0.98) 100%
+  );
+  --link: rgba(59, 77, 157, 0.98);
+  --yellow: #dcd3a5;
+}
+
+.sponsors img {
+  -o-object-fit: contain;
+  object-fit: contain;
+}
+
+body {
+  font-family: 'Inter', sans-serif !important;
+  scroll-behavior: smooth;
+}
+
+.navbar-toggler {
+  border: 0 !important;
+  box-shadow: none !important;
+}

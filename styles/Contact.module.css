@@ -1,0 +1,114 @@
+.contact {
+  padding: 4rem 0;
+  padding-bottom: 0rem;
+  background: var(--dark-blue);
+  color: #fff;
+}
+
+.contact h2 {
+  margin-bottom: 2.5rem;
+}
+
+.contact hr {
+  color: var(--yellow);
+  opacity: 1;
+  margin-bottom: 2.5rem;
+}
+
+.contact label {
+  font-weight: 300;
+}
+
+.contact label:not(:last-child) {
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+}
+.contact label span {
+  color: rgba(185, 67, 67, 1);
+}
+
+.contact :is(input, textarea, select, button) {
+  border-radius: 0;
+  /* margin-bottom: 1.25rem; */
+}
+
+.contact textarea {
+  height: 8rem;
+}
+
+.contact input::-webkit-input-placeholder {
+  font-weight: 300;
+  color: #656565;
+  font-size: 0.94rem;
+}
+
+.contact input::-moz-placeholder {
+  font-weight: 300;
+  color: #656565;
+  font-size: 0.94rem;
+}
+
+.contact input:-ms-input-placeholder {
+  font-weight: 300;
+  color: #656565;
+  font-size: 0.94rem;
+}
+
+.contact input::-ms-input-placeholder {
+  font-weight: 300;
+  color: #656565;
+  font-size: 0.94rem;
+}
+
+.contact input::placeholder {
+  font-weight: 300;
+  color: #656565;
+  font-size: 0.94rem;
+}
+
+.labelCheck {
+  font-size: 0.9rem !important;
+}
+
+.contact button {
+  background: var(--yellow) !important;
+  color: var(--dark-blue) !important;
+
+  font-size: 1rem;
+  padding: 0.6rem 0;
+}
+
+.contact button span {
+  font-size: 1.5rem;
+  color: var(--dark-blue) !important;
+}
+
+.contact a {
+  text-decoration: none;
+  color: #fff;
+}
+.contact span {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.contact select,
+.contact input {
+  padding-top: 0.9rem;
+  padding-bottom: 0.9rem;
+}
+
+.contact input[type='checkbox'] {
+  padding: 0 !important;
+}
+
+.contact option,
+.contact select,
+.contact input {
+  font-size: 1rem;
+}
+
+.error {
+  color: rgba(185, 67, 67, 1);
+}

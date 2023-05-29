@@ -1,0 +1,47 @@
+.projects {
+  padding: 5rem 0;
+  margin: 4rem 0;
+
+  background: var(--dark-blue);
+  color: #fff;
+  text-align: center;
+}
+
+.projects h2 {
+  color: #fff;
+}
+
+.projects a {
+  text-decoration: none;
+  color: var(--dark-blue) !important;
+  background: #ebebeb;
+  width: 13.75rem;
+  height: 4.125rem;
+  margin: auto;
+  text-transform: capitalize;
+  font-size: 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 767.98px) {
+  .projects a {
+    width: 13rem;
+    height: 4rem;
+  }
+}
+
+.projects a:hover,
+.projects a:active,
+.projects a:focus {
+  background: #fff;
+}
+
+.arrow {
+  cursor: pointer;
+}
+
+.arrow img {
+  width: auto;
+  height: auto;
+}

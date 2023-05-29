@@ -1,0 +1,29 @@
+.header {
+  background: var(--dark-blue);
+  height: 48rem;
+  color: #fff;
+}
+
+@media (max-width: 991.98px) {
+  .header {
+    height: auto;
+    padding-bottom: 2rem;
+  }
+}
+
+.header h1 span {
+  font-weight: 300;
+}
+
+.header p {
+  padding: 0.5rem 1rem;
+  border-left: 4px solid var(--yellow);
+  font-weight: 500;
+  width: 90%;
+}
+
+@media (max-width: 991.98px) {
+  .header p {
+    width: 100%;
+  }
+}

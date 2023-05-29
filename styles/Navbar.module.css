@@ -1,0 +1,19 @@
+.margin {
+  margin-bottom: 4rem;
+}
+
+.navLink {
+  font-size: 1.125rem;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #fff;
+}
+
+.navLink:hover {
+  color: rgb(227, 212, 138);
+}
+
+.navIcon {
+  color: #fff;
+  font-size: 1.8rem;
+}

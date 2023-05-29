@@ -1,0 +1,26 @@
+.agendaCard {
+  padding-top: 3rem;
+}
+
+.agendaCard h4 {
+  color: #fff;
+  font-weight: 300;
+}
+
+.position {
+  font-weight: 300;
+  width: 80%;
+}
+
+.date {
+  color: #e3e3e3;
+}
+
+.date p {
+  color: inherit;
+}
+
+.p {
+  color: #fff !important;
+  font-size: 0.9375rem;
+}
