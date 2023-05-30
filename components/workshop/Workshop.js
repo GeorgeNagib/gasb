@@ -5,11 +5,10 @@ import { Carousel } from 'react-responsive-carousel';
 
 const Workshop = ({
   images,
-  video,
+
   sumTitle,
   sumDesc,
-  picsLink,
-  videoLink,
+
   workLink,
   id,
 }) => {
@@ -55,8 +54,7 @@ const Workshop = ({
                 <Image
                   key={item.id}
                   src={`${item.src}`}
-           
-                  style={{height:'90vh', objectFit:'cover'}}
+                  style={{ height: '90vh', objectFit: 'cover' }}
                   width={728}
                   height={700}
                   alt="header img"
@@ -64,13 +62,14 @@ const Workshop = ({
               ))}
             </Carousel>
           </div>
-    
         </div>
-       
       </div>
       <div className="summary">
-        
-        <p className="mb-4">{sumDesc}</p>
+        {sumDesc.map((desc, i) => (
+          <p key={i} className="mb-2">
+            {desc}
+          </p>
+        ))}
         <DownloadLink link={workLink} text={'workshop recommendations'} />
       </div>
       <hr className="mt-5" />
